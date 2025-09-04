@@ -50,7 +50,7 @@ while (true)
 void AddItem(TodoRepository repo)
 {
     Console.Write("Enter title: ");
-    var title = Console.ReadLine(); // I type in the task name
+    var title = Console.ReadLine(); // type in the task name
 
     if (string.IsNullOrWhiteSpace(title)) // make sure I didn’t leave it empty
     {
